@@ -1,4 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Fullstack Next.js Application
+
+
+
+
+## Description
+
+Ce projet est une application fullstack développée avec [Next.js](https://nextjs.org) , intégrant à la fois le frontend et le backend. Elle propose les fonctionnalités suivantes :
+
+- Implémentation des opérations CRUD (Create, Read, Update, Delete).
+
+- Système d'authentification sécurisé utilisant la bibliothèque NextAuth avec GitHub et Auth0 comme fournisseurs d'authentification.
+
+## Fonctionnalités principales
+
+1. CRUD
+
+- Création, lecture, mise à jour et suppression des ressources.
+- Endpoints RESTful.
+
+2. Authentification avec NextAuth
+
+- Intégration avec GitHub et Auth0 pour l'authentification des utilisateurs.
+- Gestion sécurisée des sessions utilisateurs.
 
 ## Getting Started
 
