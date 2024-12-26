@@ -1,9 +1,31 @@
-import Dashboard from "./components/Dashboard";
+'use client';
 
-export default function Home() {
-  return (
-    <main className="max-w-7xl mx-auto my-12 space-x-5">
-    <Dashboard/>
-    </main>
-  );
-}
+import { useEffect } from 'react'; import UserDashboard from './components/Dashboard';
+import { useSession } from 'next-auth/react';
+import { useRouter } from 'next/navigation';
+
+
+
+
+
+const Home = () => {
+  const { data: session, status } = useSession();
+  
+  const router = useRouter();
+
+  useEffect(() => {
+    if (status === 'unauthenticated') {
+      router.push('/login'); 
+    }
+  }, [status, router]);
+
+  if (status === 'loading') {
+    return <p>Loading...</p>; // 
+  }
+
+
+  return ( <>
+    <UserDashboard session={session} />
+  </>  
+)}
+export default Home ;
