@@ -5,7 +5,7 @@ import bcryptjs from "bcryptjs";
 
 async function connectDataBase() {
   const client = await clientPromise 
-  const db = client.db("full-next-app")
+  const db = client.db("nextdata")
   const collection2 = db.collection('users')
   return collection2
   
