@@ -50,7 +50,7 @@ export const authOptions : NextAuthOptions ={
       
       session.user = {
         ...session.user,
-        fullName: token.fullName,
+        //fullName: token.fullName,
         email: token.email,
       };
       return session;
