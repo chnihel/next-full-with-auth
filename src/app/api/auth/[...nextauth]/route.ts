@@ -2,5 +2,5 @@ import { authOptions } from "@/lib/authOptions"
 import NextAuth from "next-auth/next"
 
 
-const handler = NextAuth(authOptions)
-export {handler as GET , handler as POST}
+const handle = NextAuth(authOptions)
+export {handle as GET , handle as POST}
