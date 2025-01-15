@@ -25,7 +25,7 @@ const Login = async()=> {
         You are not logged in
       </h1>
       <div
-        className="bg-white p-5 rounded shadow-lg"
+        className="bg-white p-4 rounded shadow-lg"
         style={{ maxWidth: "500px", width: "100%" }}
       >
         <div className="text-center mb-4">
