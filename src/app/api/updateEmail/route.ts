@@ -40,7 +40,7 @@ export  async function POST ( req : Request ){
         }
       });
       if (updateEmail){
-          return NextResponse.json({ success: "Email changed" }, { status: 200 });
+          return NextResponse.json({ success: "Email changed with success" }, { status: 200 });
       }
   
   } catch (error) {
