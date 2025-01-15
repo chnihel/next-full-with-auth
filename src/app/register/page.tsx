@@ -16,7 +16,7 @@ const SignUp = async () => {
 
     <div className="d-flex flex-column align-items-center justify-content-center vh-100  bg-light p-4">
       <div className="bg-white p-5 rounded shadow-lg w-100" style={{ maxWidth: "500px" }}>
-        <div className="text-center mb-4">
+        <div className="text-center mb-5">
           <h2 className="section-title px-5 fw-bold">
             <span className="px-2">Create Your Account</span>
           </h2>

@@ -42,7 +42,7 @@ export default function Form() {
       if (response.ok) {
         const data = await response.json();
         
-        alert('user added successfully!');
+        alert('user added successfully');
         console.log(data);
         router.push("/login");
 
