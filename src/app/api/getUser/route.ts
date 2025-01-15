@@ -7,7 +7,7 @@ export async function GET() {
     const session = await getServerSession(authOptions);
 
     if (!session) {
-        return NextResponse.json({ error: "Not authorized" }, { status: 400 })
+        return NextResponse.json({ error: "Not authorized user" }, { status: 400 })
     }
 
     return NextResponse.json({ success: session }, { status: 200 })
