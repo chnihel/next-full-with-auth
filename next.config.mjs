@@ -4,15 +4,15 @@ const nextConfig = {
       remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'lh3.googleusercontent.com', // Pour Google 
+                hostname: 'lh3.googleusercontent.com', // Pour l'utilisation Google 
             },
             {
                 protocol: 'https',
-                hostname: 'avatars.githubusercontent.com', // Pour GitHub
+                hostname: 'avatars.githubusercontent.com', // Pour l'utilisation GitHub
             },
             {
                 protocol: 'https',
-                hostname: 'dev-6c5l2tdt7b7b3o3k.us.auth0.com', // pour Auth0
+                hostname: 'dev-6c5l2tdt7b7b3o3k.us.auth0.com', // pour l'utilisation Auth0
             },
         ],
     },
