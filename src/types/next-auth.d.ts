@@ -20,6 +20,6 @@ declare module "next-auth" {
   interface JWT {
     id: string;
     email: string;
-    fullName?: string | null; 
+    fullName?: number | null; 
   }
 }
