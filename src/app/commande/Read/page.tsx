@@ -35,7 +35,7 @@ export default function Getcommande() {
       }
     } catch (err) {
       console.error('add error:', err);
-      alert('An error occurred while adding the command.');
+      alert('An error occurred while adding this command.');
     }
   };
 
