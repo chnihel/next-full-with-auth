@@ -61,7 +61,7 @@ export default function Addcommande() {
 
     } catch (err) {
       console.error('add error:', err);
-      alert('An error occurred while adding the command.');
+      alert('An error occurred while adding this command.');
 
     }
   }

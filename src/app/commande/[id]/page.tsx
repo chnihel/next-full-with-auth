@@ -42,7 +42,7 @@ export default function GetCommandeById({ params }: { params: { id: string } }) 
       setCommande(data.dataCommande);
     } catch (err) {
       console.error('add error:', err);
-      alert('An error occurred while adding the command.');
+      alert('An error occurred while adding this command.');
     } finally {
       setLoading(false);
     }
