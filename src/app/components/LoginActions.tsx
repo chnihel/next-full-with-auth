@@ -11,7 +11,7 @@ const LoginActions = () => {
         Sign in with Auth0
       </button>
       <button onClick={() => signIn("github")} className="btn btn-dark d-flex align-items-center">
-        <FaGithub className="me-2" />
+        <FaGithub className="me-3" />
         Sign in with Github
       </button>
     </div>

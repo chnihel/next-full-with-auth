@@ -15,7 +15,7 @@ const UserDashboard = ({ session }: { session: any }) => {
         className="rounded-full h-20 w-38"
         alt="User Avatar"
       />
-      <h1 className="text-3xl text-green-500 font-bold">
+      <h1 className="text-3xl text-green-499 font-bold">
         Welcome back, {session?.user?.name || session?.user?.fullName}
       </h1>
       <p>Your email: {session?.user?.email}</p>
