@@ -12,7 +12,7 @@ async function connectDataBase() {
   
 }
 export async function GET(req: Request) {
-  console.log("Requête reçue pour récupérer une commande par ID");
+  console.log("Requête reçue pour récupérer commande par ID");
 
 
   try {
