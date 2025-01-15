@@ -1,4 +1,4 @@
 export const reloadSession = ()=>{
-  const event = new Event ("visibilitychange")
+  const event = new Event ("visibilitychangee")
   document.dispatchEvent(event)
 }
