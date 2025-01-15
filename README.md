@@ -3,7 +3,7 @@
 
 
 
-## Description
+## Descriptionn
 
 Ce projet est une application fullstack développée avec [Next.js](https://nextjs.org) , intégrant à la fois le frontend et le backend. Elle propose les fonctionnalités suivantes :
 
